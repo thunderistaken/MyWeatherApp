@@ -29,15 +29,14 @@ const getWeather = async (id) => {
 
 }
 
-getCity("tokyo")
-    .then(value => {
-        return getWeather(value.Key);
-    }).then(value => {
+//getCity("tokyo")
+  //  .then(value => {
+   //     return getWeather(value.Key);
+   // }).then(value => {
         //console.log(value);
-    })
-    .catch(err => {
-        console.log(err);
-    });
-
+ //   })
+ //   .catch(err => {
+   //     console.log(err);
+ //   });
 
 

@@ -57,14 +57,7 @@ const updateUI = (value) => {
 
 }
 
-
-
-
-
-
-
-
-form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", (e) => {
     e.preventDefault();
     const city = form.city.value.trim();
     console.log(city);
@@ -74,21 +67,9 @@ form.addEventListener("submit", (e) => {
             updateUI(value);
 
 
-        });
-
-
-
-
-
-
-
-
+    })
 
     form.reset();
-
-
-
-
 });
 
 
@@ -101,6 +82,5 @@ const updateCity = async (city) => {
         cityDetail,
         weatherDetail
     }
-
 
 }
